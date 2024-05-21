@@ -1,0 +1,64 @@
+body {
+    /*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReuvhu8KQ7tOxSB6KEVN_55CsAGkSBCkzcp5ww5gVgmTm9hIZU7-B3a8aEQJhqdh5mlZI&usqp=CAU");*/
+    background-image: url(top.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container {
+    text-align: center;
+    width: 400px;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.1633);
+    margin: 60px auto;
+    border-radius: 10px;
+}
+.container h1 {
+    padding-top: 60px;
+    color: rgb(29, 249, 150);
+    font-weight: 900;
+    font-size: 40px;
+}
+.container p{
+    font-weight: 700;
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: rgb(135, 106, 241);
+}
+.block input{
+    padding-left: 10px;
+    width: 75%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+input:focus{
+    background-color: rgb(56, 245, 230);
+    color: white;
+}
+.submit{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    width: 78%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(90, 230, 19);
+    /*transition: background-color 0.3s ease-in-out;*/
+}
+.submit:hover{
+    background-color: rgba(255, 255, 255);
+    color: rgb(4, 13, 79);
+}
+.login-link{
+    color: white;
+}
+p a {
+    color: rgb(242, 156, 7);
+}
